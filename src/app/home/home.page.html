@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
     <ion-title>
-      App bmi
+      BMI
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -22,9 +22,16 @@
   <ion-button color="warning" size="large" expand="block" shape="round">คำนวณ</ion-button>
   </ion-card>
 
-  <ion-button color="warning" size="large" expand="block">ผลลัพธ์</ion-button>
-   <ion-button size="large" expand="block" (click)="goLogin()">
-
-    แปรผล
-  </ion-button>
+  <ion-card color="med">
+    <ion-card-header>
+      <ion-card-subtitle class="ion-text-center">ผลลัพธ์</ion-card-subtitle>
+      <ion-card-title class="ion-text-center">23.81</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-card color="warning">
+    <ion-card-header>
+      <ion-card-subtitle class="ion-text-center">แปรผล</ion-card-subtitle>
+      <ion-card-title class="ion-text-center">อยู่ในเกณฑ์ท้วม</ion-card-title>
+    </ion-card-header>
+  </ion-card>
  </ion-content>
